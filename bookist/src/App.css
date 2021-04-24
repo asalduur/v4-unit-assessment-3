@@ -1,0 +1,85 @@
+.App {
+  background-color: #fff;
+  width: 100vw;
+  height: 100vh;
+}
+
+.header {
+  background-color: rgb(248, 248, 248);
+  color: #439e95;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+  height: 6%;
+  padding-top: 15px;
+}
+
+.searchBar {
+  background: rgb(254,254,255);
+  background: linear-gradient(0deg, rgba(254,254,255,1) 0%, 
+            rgba(243,243,245,1) 50%, rgba(236, 236, 236,1) 100%); 
+  width: 100%;
+  height: 7%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.textArea {
+  width: 170px;
+  height: 25px;
+  border: 2px solid #a8a8a8;
+  border-radius: 4px;
+}
+button {
+  margin-left: 25px;
+  background-color: #f3f3f3;
+}
+
+.content {
+  background-color: #fefefe; 
+  width: 100%;
+  height: 87%;
+  /* margin-top: 5px; */
+  display: flex;
+  flex-direction: row;
+}
+
+.library {
+  flex: 3;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  align-items: center;
+  margin-left: 20px;
+}
+.book {
+  /* background-color: #439e95; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.bookImg {
+  width: 100px;
+  height: 130px;
+  margin: 5px;
+}
+
+.bookInfo {
+  width: 150px;
+  text-align: center;
+  font-size: 12px;
+  word-wrap: wrap;
+  
+}
+.shelf {
+  padding-top: 10px;
+  flex: 1;
+  border-left: 3px solid #c0c0c0;
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
